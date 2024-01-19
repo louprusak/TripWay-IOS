@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A5D03302B5A7CC000C0E8FF /* TripWay_IOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5D032F2B5A7CC000C0E8FF /* TripWay_IOSApp.swift */; };
+		1A5D03322B5A7CC000C0E8FF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5D03312B5A7CC000C0E8FF /* ContentView.swift */; };
+		1A5D03342B5A7CC100C0E8FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A5D03332B5A7CC100C0E8FF /* Assets.xcassets */; };
+		1A5D03372B5A7CC100C0E8FF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A5D03362B5A7CC100C0E8FF /* Preview Assets.xcassets */; };
+		1A5D03412B5A7CC100C0E8FF /* TripWay_IOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5D03402B5A7CC100C0E8FF /* TripWay_IOSTests.swift */; };
+		1A5D034B2B5A7CC100C0E8FF /* TripWay_IOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5D034A2B5A7CC100C0E8FF /* TripWay_IOSUITests.swift */; };
+		1A5D034D2B5A7CC100C0E8FF /* TripWay_IOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5D034C2B5A7CC100C0E8FF /* TripWay_IOSUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1A5D033D2B5A7CC100C0E8FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A5D03242B5A7CC000C0E8FF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A5D032B2B5A7CC000C0E8FF;
+			remoteInfo = "TripWay IOS";
+		};
+		1A5D03472B5A7CC100C0E8FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A5D03242B5A7CC000C0E8FF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A5D032B2B5A7CC000C0E8FF;
+			remoteInfo = "TripWay IOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1A5D032C2B5A7CC000C0E8FF /* TripWay IOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TripWay IOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A5D032F2B5A7CC000C0E8FF /* TripWay_IOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripWay_IOSApp.swift; sourceTree = "<group>"; };
+		1A5D03312B5A7CC000C0E8FF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1A5D03332B5A7CC100C0E8FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1A5D03362B5A7CC100C0E8FF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1A5D033C2B5A7CC100C0E8FF /* TripWay IOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TripWay IOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A5D03402B5A7CC100C0E8FF /* TripWay_IOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripWay_IOSTests.swift; sourceTree = "<group>"; };
+		1A5D03462B5A7CC100C0E8FF /* TripWay IOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TripWay IOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A5D034A2B5A7CC100C0E8FF /* TripWay_IOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripWay_IOSUITests.swift; sourceTree = "<group>"; };
+		1A5D034C2B5A7CC100C0E8FF /* TripWay_IOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripWay_IOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1A5D03292B5A7CC000C0E8FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A5D03392B5A7CC100C0E8FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A5D03432B5A7CC100C0E8FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A5D03232B5A7CC000C0E8FF = {
+			isa = PBXGroup;
+			children = (
+				1A5D032E2B5A7CC000C0E8FF /* TripWay IOS */,
+				1A5D033F2B5A7CC100C0E8FF /* TripWay IOSTests */,
+				1A5D03492B5A7CC100C0E8FF /* TripWay IOSUITests */,
+				1A5D032D2B5A7CC000C0E8FF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1A5D032D2B5A7CC000C0E8FF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1A5D032C2B5A7CC000C0E8FF /* TripWay IOS.app */,
+				1A5D033C2B5A7CC100C0E8FF /* TripWay IOSTests.xctest */,
+				1A5D03462B5A7CC100C0E8FF /* TripWay IOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1A5D032E2B5A7CC000C0E8FF /* TripWay IOS */ = {
+			isa = PBXGroup;
+			children = (
+				1A5D032F2B5A7CC000C0E8FF /* TripWay_IOSApp.swift */,
+				1A5D03312B5A7CC000C0E8FF /* ContentView.swift */,
+				1A5D03332B5A7CC100C0E8FF /* Assets.xcassets */,
+				1A5D03352B5A7CC100C0E8FF /* Preview Content */,
+			);
+			path = "TripWay IOS";
+			sourceTree = "<group>";
+		};
+		1A5D03352B5A7CC100C0E8FF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1A5D03362B5A7CC100C0E8FF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1A5D033F2B5A7CC100C0E8FF /* TripWay IOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				1A5D03402B5A7CC100C0E8FF /* TripWay_IOSTests.swift */,
+			);
+			path = "TripWay IOSTests";
+			sourceTree = "<group>";
+		};
+		1A5D03492B5A7CC100C0E8FF /* TripWay IOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1A5D034A2B5A7CC100C0E8FF /* TripWay_IOSUITests.swift */,
+				1A5D034C2B5A7CC100C0E8FF /* TripWay_IOSUITestsLaunchTests.swift */,
+			);
+			path = "TripWay IOSUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1A5D032B2B5A7CC000C0E8FF /* TripWay IOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A5D03502B5A7CC100C0E8FF /* Build configuration list for PBXNativeTarget "TripWay IOS" */;
+			buildPhases = (
+				1A5D03282B5A7CC000C0E8FF /* Sources */,
+				1A5D03292B5A7CC000C0E8FF /* Frameworks */,
+				1A5D032A2B5A7CC000C0E8FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TripWay IOS";
+			productName = "TripWay IOS";
+			productReference = 1A5D032C2B5A7CC000C0E8FF /* TripWay IOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1A5D033B2B5A7CC100C0E8FF /* TripWay IOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A5D03532B5A7CC100C0E8FF /* Build configuration list for PBXNativeTarget "TripWay IOSTests" */;
+			buildPhases = (
+				1A5D03382B5A7CC100C0E8FF /* Sources */,
+				1A5D03392B5A7CC100C0E8FF /* Frameworks */,
+				1A5D033A2B5A7CC100C0E8FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A5D033E2B5A7CC100C0E8FF /* PBXTargetDependency */,
+			);
+			name = "TripWay IOSTests";
+			productName = "TripWay IOSTests";
+			productReference = 1A5D033C2B5A7CC100C0E8FF /* TripWay IOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1A5D03452B5A7CC100C0E8FF /* TripWay IOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A5D03562B5A7CC100C0E8FF /* Build configuration list for PBXNativeTarget "TripWay IOSUITests" */;
+			buildPhases = (
+				1A5D03422B5A7CC100C0E8FF /* Sources */,
+				1A5D03432B5A7CC100C0E8FF /* Frameworks */,
+				1A5D03442B5A7CC100C0E8FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A5D03482B5A7CC100C0E8FF /* PBXTargetDependency */,
+			);
+			name = "TripWay IOSUITests";
+			productName = "TripWay IOSUITests";
+			productReference = 1A5D03462B5A7CC100C0E8FF /* TripWay IOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1A5D03242B5A7CC000C0E8FF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					1A5D032B2B5A7CC000C0E8FF = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					1A5D033B2B5A7CC100C0E8FF = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 1A5D032B2B5A7CC000C0E8FF;
+					};
+					1A5D03452B5A7CC100C0E8FF = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 1A5D032B2B5A7CC000C0E8FF;
+					};
+				};
+			};
+			buildConfigurationList = 1A5D03272B5A7CC000C0E8FF /* Build configuration list for PBXProject "TripWay IOS" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1A5D03232B5A7CC000C0E8FF;
+			productRefGroup = 1A5D032D2B5A7CC000C0E8FF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1A5D032B2B5A7CC000C0E8FF /* TripWay IOS */,
+				1A5D033B2B5A7CC100C0E8FF /* TripWay IOSTests */,
+				1A5D03452B5A7CC100C0E8FF /* TripWay IOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1A5D032A2B5A7CC000C0E8FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A5D03372B5A7CC100C0E8FF /* Preview Assets.xcassets in Resources */,
+				1A5D03342B5A7CC100C0E8FF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A5D033A2B5A7CC100C0E8FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A5D03442B5A7CC100C0E8FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A5D03282B5A7CC000C0E8FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A5D03322B5A7CC000C0E8FF /* ContentView.swift in Sources */,
+				1A5D03302B5A7CC000C0E8FF /* TripWay_IOSApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A5D03382B5A7CC100C0E8FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A5D03412B5A7CC100C0E8FF /* TripWay_IOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A5D03422B5A7CC100C0E8FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A5D034B2B5A7CC100C0E8FF /* TripWay_IOSUITests.swift in Sources */,
+				1A5D034D2B5A7CC100C0E8FF /* TripWay_IOSUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1A5D033E2B5A7CC100C0E8FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1A5D032B2B5A7CC000C0E8FF /* TripWay IOS */;
+			targetProxy = 1A5D033D2B5A7CC100C0E8FF /* PBXContainerItemProxy */;
+		};
+		1A5D03482B5A7CC100C0E8FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1A5D032B2B5A7CC000C0E8FF /* TripWay IOS */;
+			targetProxy = 1A5D03472B5A7CC100C0E8FF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1A5D034E2B5A7CC100C0E8FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1A5D034F2B5A7CC100C0E8FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1A5D03512B5A7CC100C0E8FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TripWay IOS/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "LoupRusak.TripWay-IOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1A5D03522B5A7CC100C0E8FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TripWay IOS/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "LoupRusak.TripWay-IOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1A5D03542B5A7CC100C0E8FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "LoupRusak.TripWay-IOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TripWay IOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TripWay IOS";
+			};
+			name = Debug;
+		};
+		1A5D03552B5A7CC100C0E8FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "LoupRusak.TripWay-IOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TripWay IOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TripWay IOS";
+			};
+			name = Release;
+		};
+		1A5D03572B5A7CC100C0E8FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "LoupRusak.TripWay-IOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "TripWay IOS";
+			};
+			name = Debug;
+		};
+		1A5D03582B5A7CC100C0E8FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "LoupRusak.TripWay-IOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "TripWay IOS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A5D03272B5A7CC000C0E8FF /* Build configuration list for PBXProject "TripWay IOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A5D034E2B5A7CC100C0E8FF /* Debug */,
+				1A5D034F2B5A7CC100C0E8FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A5D03502B5A7CC100C0E8FF /* Build configuration list for PBXNativeTarget "TripWay IOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A5D03512B5A7CC100C0E8FF /* Debug */,
+				1A5D03522B5A7CC100C0E8FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A5D03532B5A7CC100C0E8FF /* Build configuration list for PBXNativeTarget "TripWay IOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A5D03542B5A7CC100C0E8FF /* Debug */,
+				1A5D03552B5A7CC100C0E8FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A5D03562B5A7CC100C0E8FF /* Build configuration list for PBXNativeTarget "TripWay IOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A5D03572B5A7CC100C0E8FF /* Debug */,
+				1A5D03582B5A7CC100C0E8FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1A5D03242B5A7CC000C0E8FF /* Project object */;
+}
