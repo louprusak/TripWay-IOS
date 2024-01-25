@@ -8,12 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		1A5D03302B5A7CC000C0E8FF /* TripWay_IOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5D032F2B5A7CC000C0E8FF /* TripWay_IOSApp.swift */; };
-		1A5D03322B5A7CC000C0E8FF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5D03312B5A7CC000C0E8FF /* ContentView.swift */; };
+		1A5D03322B5A7CC000C0E8FF /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5D03312B5A7CC000C0E8FF /* MainView.swift */; };
 		1A5D03342B5A7CC100C0E8FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A5D03332B5A7CC100C0E8FF /* Assets.xcassets */; };
 		1A5D03372B5A7CC100C0E8FF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A5D03362B5A7CC100C0E8FF /* Preview Assets.xcassets */; };
 		1A5D03412B5A7CC100C0E8FF /* TripWay_IOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5D03402B5A7CC100C0E8FF /* TripWay_IOSTests.swift */; };
 		1A5D034B2B5A7CC100C0E8FF /* TripWay_IOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5D034A2B5A7CC100C0E8FF /* TripWay_IOSUITests.swift */; };
 		1A5D034D2B5A7CC100C0E8FF /* TripWay_IOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5D034C2B5A7CC100C0E8FF /* TripWay_IOSUITestsLaunchTests.swift */; };
+		1A5D035D2B5A7DF100C0E8FF /* LogsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5D03592B5A7DF100C0E8FF /* LogsView.swift */; };
+		1A5D035E2B5A7DF100C0E8FF /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5D035A2B5A7DF100C0E8FF /* HomeView.swift */; };
+		1A5D035F2B5A7DF100C0E8FF /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5D035B2B5A7DF100C0E8FF /* AddView.swift */; };
+		1A5D03602B5A7DF100C0E8FF /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5D035C2B5A7DF100C0E8FF /* MapView.swift */; };
+		1A5D03672B5A7EF900C0E8FF /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5D03642B5A7EF900C0E8FF /* City.swift */; };
+		1A5D03682B5A7EF900C0E8FF /* DetailSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5D03652B5A7EF900C0E8FF /* DetailSheet.swift */; };
+		1A5D03692B5A7EF900C0E8FF /* Stub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5D03662B5A7EF900C0E8FF /* Stub.swift */; };
+		1A5D036C2B5A7F7000C0E8FF /* HomeTripTile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5D036B2B5A7F7000C0E8FF /* HomeTripTile.swift */; };
+		1A9909692B614AA900180CC3 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9909682B614AA900180CC3 /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +45,7 @@
 /* Begin PBXFileReference section */
 		1A5D032C2B5A7CC000C0E8FF /* TripWay IOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TripWay IOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A5D032F2B5A7CC000C0E8FF /* TripWay_IOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripWay_IOSApp.swift; sourceTree = "<group>"; };
-		1A5D03312B5A7CC000C0E8FF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1A5D03312B5A7CC000C0E8FF /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		1A5D03332B5A7CC100C0E8FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1A5D03362B5A7CC100C0E8FF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1A5D033C2B5A7CC100C0E8FF /* TripWay IOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TripWay IOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +53,15 @@
 		1A5D03462B5A7CC100C0E8FF /* TripWay IOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TripWay IOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A5D034A2B5A7CC100C0E8FF /* TripWay_IOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripWay_IOSUITests.swift; sourceTree = "<group>"; };
 		1A5D034C2B5A7CC100C0E8FF /* TripWay_IOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripWay_IOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1A5D03592B5A7DF100C0E8FF /* LogsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogsView.swift; sourceTree = "<group>"; };
+		1A5D035A2B5A7DF100C0E8FF /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		1A5D035B2B5A7DF100C0E8FF /* AddView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
+		1A5D035C2B5A7DF100C0E8FF /* MapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		1A5D03642B5A7EF900C0E8FF /* City.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
+		1A5D03652B5A7EF900C0E8FF /* DetailSheet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailSheet.swift; sourceTree = "<group>"; };
+		1A5D03662B5A7EF900C0E8FF /* Stub.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stub.swift; sourceTree = "<group>"; };
+		1A5D036B2B5A7F7000C0E8FF /* HomeTripTile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTripTile.swift; sourceTree = "<group>"; };
+		1A9909682B614AA900180CC3 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +112,12 @@
 		1A5D032E2B5A7CC000C0E8FF /* TripWay IOS */ = {
 			isa = PBXGroup;
 			children = (
+				1A5D036A2B5A7F2600C0E8FF /* Data */,
+				1A5D03632B5A7E1F00C0E8FF /* ViewComponents */,
+				1A5D03622B5A7E1100C0E8FF /* Views */,
+				1A5D03612B5A7E0A00C0E8FF /* Model */,
 				1A5D032F2B5A7CC000C0E8FF /* TripWay_IOSApp.swift */,
-				1A5D03312B5A7CC000C0E8FF /* ContentView.swift */,
+				1A5D03312B5A7CC000C0E8FF /* MainView.swift */,
 				1A5D03332B5A7CC100C0E8FF /* Assets.xcassets */,
 				1A5D03352B5A7CC100C0E8FF /* Preview Content */,
 			);
@@ -125,6 +147,43 @@
 				1A5D034C2B5A7CC100C0E8FF /* TripWay_IOSUITestsLaunchTests.swift */,
 			);
 			path = "TripWay IOSUITests";
+			sourceTree = "<group>";
+		};
+		1A5D03612B5A7E0A00C0E8FF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1A5D03642B5A7EF900C0E8FF /* City.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1A5D03622B5A7E1100C0E8FF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1A5D035B2B5A7DF100C0E8FF /* AddView.swift */,
+				1A5D035A2B5A7DF100C0E8FF /* HomeView.swift */,
+				1A5D03592B5A7DF100C0E8FF /* LogsView.swift */,
+				1A5D035C2B5A7DF100C0E8FF /* MapView.swift */,
+				1A9909682B614AA900180CC3 /* DetailView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1A5D03632B5A7E1F00C0E8FF /* ViewComponents */ = {
+			isa = PBXGroup;
+			children = (
+				1A5D03652B5A7EF900C0E8FF /* DetailSheet.swift */,
+				1A5D036B2B5A7F7000C0E8FF /* HomeTripTile.swift */,
+			);
+			path = ViewComponents;
+			sourceTree = "<group>";
+		};
+		1A5D036A2B5A7F2600C0E8FF /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				1A5D03662B5A7EF900C0E8FF /* Stub.swift */,
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +316,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1A5D03322B5A7CC000C0E8FF /* ContentView.swift in Sources */,
+				1A5D03682B5A7EF900C0E8FF /* DetailSheet.swift in Sources */,
+				1A5D03322B5A7CC000C0E8FF /* MainView.swift in Sources */,
+				1A5D03602B5A7DF100C0E8FF /* MapView.swift in Sources */,
+				1A5D035E2B5A7DF100C0E8FF /* HomeView.swift in Sources */,
+				1A5D03692B5A7EF900C0E8FF /* Stub.swift in Sources */,
+				1A9909692B614AA900180CC3 /* DetailView.swift in Sources */,
+				1A5D035F2B5A7DF100C0E8FF /* AddView.swift in Sources */,
+				1A5D035D2B5A7DF100C0E8FF /* LogsView.swift in Sources */,
+				1A5D036C2B5A7F7000C0E8FF /* HomeTripTile.swift in Sources */,
 				1A5D03302B5A7CC000C0E8FF /* TripWay_IOSApp.swift in Sources */,
+				1A5D03672B5A7EF900C0E8FF /* City.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,6 +490,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"TripWay IOS/Preview Content\"";
+				DEVELOPMENT_TEAM = KS8CD5859A;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -450,6 +519,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"TripWay IOS/Preview Content\"";
+				DEVELOPMENT_TEAM = KS8CD5859A;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;

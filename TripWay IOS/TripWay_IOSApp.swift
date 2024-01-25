@@ -11,7 +11,7 @@ import SwiftUI
 struct TripWay_IOSApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainView()
         }
     }
 }
